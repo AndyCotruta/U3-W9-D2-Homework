@@ -3,7 +3,10 @@ import books from "../data/books/fantasy.json";
 function BookCards() {
   return (
     <div>
-      <h2 className="mx-4 mt-3">{books[0].category} Books</h2>
+      <h2 className="mx-4 mt-3">
+        {books[0].category.charAt(0).toUpperCase()}
+        {books[0].category.slice(1)} Books
+      </h2>
       <div className="px-4 rowCards">
         {books.map((book) => (
           <div className="bookCards my-3">
