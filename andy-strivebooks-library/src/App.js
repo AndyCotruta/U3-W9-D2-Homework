@@ -9,7 +9,6 @@ function App() {
     <div className="body">
       <CustomNavbar />
       <JumbotronComponent />
-
       <BookCards />
     </div>
   );

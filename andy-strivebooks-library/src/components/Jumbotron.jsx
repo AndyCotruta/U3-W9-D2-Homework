@@ -8,14 +8,10 @@ function JumbotronComponent() {
         alt="Card image"
       />
       <Card.ImgOverlay className="cardText">
-        <Card.Text>
-          <div className="title">STRIVEBOOKS</div>
-        </Card.Text>
-        <div>
-          “Reality doesn’t always give us the life that we desire, but we can
-          always find what we desire between the pages of books.” ―Adelise M.
-          Cullens
-        </div>
+        <Card.Text className="title">STRIVEBOOKS</Card.Text>
+        “Reality doesn’t always give us the life that we desire, but we can
+        always find what we desire between the pages of books.” ―Adelise M.
+        Cullens
       </Card.ImgOverlay>
     </Card>
   );

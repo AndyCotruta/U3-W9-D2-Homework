@@ -9,7 +9,7 @@ function BookCards() {
       </h2>
       <div className="px-4 rowCards">
         {books.map((book) => (
-          <div className="bookCards my-3">
+          <div className="bookCards my-3" key={book.asin}>
             <img
               className="bookCovers"
               src={book.img}
