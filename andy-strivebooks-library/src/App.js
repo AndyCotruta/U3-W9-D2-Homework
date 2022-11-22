@@ -9,10 +9,8 @@ function App() {
     <div className="body">
       <CustomNavbar />
       <JumbotronComponent />
-      <h2 className="mx-4 mt-3">Fantasy Books</h2>
-      <div className="px-4 rowCards">
-        <BookCards />
-      </div>
+
+      <BookCards />
     </div>
   );
 }
