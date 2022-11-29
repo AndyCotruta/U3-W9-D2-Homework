@@ -1,4 +1,4 @@
-import books from "../data/books/fantasy.json";
+import books from "../data/books/scifi.json";
 
 function BookCards() {
   return (
